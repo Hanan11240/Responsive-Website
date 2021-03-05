@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
+/* Navigation SEction */
 /* CSS Variables */
+
+
 :root{
     --navbar-height:59px;
 }
@@ -35,6 +39,7 @@
 #navbar ul
 {
     display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
     
 }
 
@@ -72,4 +77,50 @@
     color: black;
     background-color: white;
     
+}
+
+
+/* Home Section */
+#home
+{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+#home::before
+{
+    
+    content: " ";
+    background: url('images/bg1.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   
+    opacity: 0.8;
+}
+
+#home h1
+{
+    color:white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p
+{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+/* Utility CLases */
+.h-primary
+{
+    font-size: 3.8rem;
+    padding: 12px;
 }
