@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+html
+{
+scroll-behavior: smooth;
+}
+
 /* Navigation SEction */
 /* CSS Variables */
 
@@ -17,7 +22,7 @@
 {
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
     top: 0px;
 }
 
@@ -94,7 +99,7 @@
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
-    height: 446px;
+    height: 468px;
 }
 
 #home::before
@@ -136,9 +141,10 @@
 {
     border: 2px solid brown;
     padding: 34px;
-    margin: 3px 6px;
-    border-radius: 23px;
+    margin: 2px 27px;
+    border-radius: 72px;
     background-color: #f2f2f2;
+    margin-bottom: 20px;
 }
 
 #services .box img
@@ -159,7 +165,7 @@
 
 #client-section
 {
-    height: 344px;
+    
     position: relative;
 }
 
